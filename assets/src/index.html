@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frutiger Aero Inspired Website</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: url('bg-frutiger-aero.png') no-repeat center center fixed;
+            /* Correct path to background image */
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+        }
+
+        .wrapper {
+            width: 80%;
+            max-width: 1200px;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            /* Apply blur effect */
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            background: linear-gradient(to right, #00ff00, #00ffff, #0000ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: transparent;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        header img {
+            width: 100px;
+            /* Adjust size as needed */
+            height: auto;
+        }
+
+        .title-square {
+            background: linear-gradient(to right, #00ff00, #00ffff, #0000ff);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            background-color: rgba(44, 62, 80, 0.8);
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            /* Add transition for smooth effect */
+            border-radius: 5px;
+            /* Add border-radius for rounded corners */
+            box-shadow: 0 2px 4px rgba(255, 255, 255, 0.5), 0 -2px 4px rgba(0, 0, 0, 0.2);
+            /* Add glossy effect */
+        }
+
+        nav a:nth-child(odd) {
+            background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
+            /* Add glossy gradient background */
+        }
+
+        nav a:nth-child(1) {
+            background-color: #3498db;
+            /* Blue */
+        }
+
+        nav a:nth-child(2) {
+            background-color: #e74c3c;
+            /* Red */
+        }
+
+        nav a:nth-child(3) {
+            background-color: #2ecc71;
+            /* Green */
+        }
+
+        nav a:nth-child(4) {
+            background-color: #f39c12;
+            /* Yellow */
+        }
+
+        nav a:hover {
+            background-color: rgba(52, 152, 219, 0.8);
+            color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            /* Increase shadow on hover */
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .blog-post {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-post h3 {
+            font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+            color: #4a90e2;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .blog-post p {
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        footer {
+            background-color: rgba(44, 62, 80, 0.8);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header>
+            <img src="logo.png" alt="DFINITY logo" /> <!-- Adjust path if needed -->
+            <h1>Frutiger Aero Inspired Website</h1>
+        </header>
+
+        <div class="title-square"></div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="container">
+            <div class="blog-post">
+                <h3>My First Blog Post</h3>
+                <p>
+                    Remember the good ol' days of dial-up internet and AIM chat rooms? Ah, those were the days. In this
+                    blog post, I'll be reminiscing about my first experiences with the internet and sharing some
+                    thoughts on how it's evolved since then. Stay tuned!
+                </p>
+            </div>
+
+            <div class="blog-post">
+                <h3>Exploring the World of Geocities</h3>
+                <p>
+                    Who else spent hours customizing their Geocities website with glittering GIFs and scrolling
+                    marquees? Geocities was the epitome of personal expression on the web. Let's take a trip down memory
+                    lane and revisit the glory days of GeoCities.
+
+                </p>
+            </div>
+
+            <div class="blog-post">
+                <h3>The Rise of MySpace</h3>
+                <p>
+                    Before Facebook, Twitter, and Instagram, there was MySpace. With customizable profiles and the
+                    ability to add your favorite songs to your page, MySpace was the place to be for social networking
+                    in the early 2000s. Join me as I reflect on the impact of MySpace on internet culture.
+                </p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Frutiger Aero Inspired Website. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
